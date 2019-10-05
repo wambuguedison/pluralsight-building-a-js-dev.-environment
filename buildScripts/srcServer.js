@@ -1,6 +1,6 @@
-const express = require('express');
+const express = require('./node_modules/express');
 const path = require('path');
-const open = require('open');
+const open = require('./node_modules/open');
 
 const port = 3000;
 const app = express();
